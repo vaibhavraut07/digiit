@@ -10,11 +10,7 @@ This project implements a simple SIM Card Activation service for a telecom compa
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
-- [Front-End Usage](#front-end-usage)
-- [Testing the Application](#testing-the-application)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -42,6 +38,24 @@ npm install
 # Create .env file and add MONGO_URI
 npm start
 # Open http://localhost:3000 in your browser
+
+
+## APT ENDPOINTS
+1. Activate SIM Card
+Endpoint: POST /api/activate/:simNumber
+Request Body:
+
+
+{
+  "simNumber": "string"
+}
+Response:
+
+
+{
+  "message": "SIM card activated successfully."
+}
+
 
    
    
