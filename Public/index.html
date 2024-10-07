@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SIM Card Activation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SIM Card Activation</h1>
+        <form id="simForm" class="form">
+            <input type="text" id="simNumber" placeholder="Enter SIM Number" required>
+            <input type="text" id="phoneNumber" placeholder="Enter Phone Number" required>
+            <button type="submit">Activate SIM</button>
+        </form>
+        
+        <h2>Deactivate SIM</h2>
+        <form id="deactivateForm" class="form">
+            <input type="text" id="deactivateSimNumber" placeholder="Enter SIM Number to Deactivate" required>
+            <button type="submit">Deactivate SIM</button>
+        </form>
+        
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
